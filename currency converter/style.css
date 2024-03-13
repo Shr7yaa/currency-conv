@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F3E3;
+
+}
+
+.container h2 {
+    margin-left: 4rem;
+    font-size: 1.7rem;
+}
+
+.container {
+    background-color: #B3B6B7;
+    margin-top: 10rem;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 2rem;
+    box-shadow: 5px 5px rgb(67, 66, 66);
+    padding: 2rem;
+}
+
+.amount input,
+form select,
+form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.dropdown {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-cont {
+    border: 2px solid #2B2118;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.select-cont img {
+    height: 6vmin;
+    width: 5vmin;
+}
+
+.amount {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.amount input {
+    height: 5vmin;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #2B2118;
+}
+
+form i {
+    margin-top: 1.5rem;
+}
+
+form button {
+    margin-top: 1.5rem;
+    height: 6vmin;
+    font-size: 1.5rem;
+    border: 2px solid #2B2118;
+    cursor: pointer;
+}
+.msg{
+    margin-top: 1.7rem;
+    font-size:1.1rem;
+}
+.select-cont select{
+    font-size: 1rem;
+}
